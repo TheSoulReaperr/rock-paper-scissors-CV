@@ -1,7 +1,8 @@
 # Rock-Paper-Scissors-CV
 
 Play Rock-Paper-Scissors with the computer
+Made using p5.js
+https://editor.p5js.org/
 
-Implement Computer Vision with the help of Google's "Teachable Machine"
-Model trained using
+Model trained using Google's "Teachable Machine"
 https://teachablemachine.withgoogle.com/
