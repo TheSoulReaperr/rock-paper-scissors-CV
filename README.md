@@ -1,6 +1,7 @@
-# game-control-CV
+# Rock-Paper-Scissors-CV
 
-Experiment to control actions in a game using Image recognition.
+Play Rock-Paper-Scissors with the computer
 
 Implement Computer Vision with the help of Google's "Teachable Machine"
+Model trained using
 https://teachablemachine.withgoogle.com/
