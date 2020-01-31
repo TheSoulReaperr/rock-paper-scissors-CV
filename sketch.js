@@ -5,7 +5,6 @@ let r,p,s;
 let size = 500;
 let f = size/2;
 let modelURL = 'https://teachablemachine.withgoogle.com/models/ePikIUXR/';
-// let modelURL = 'https://teachablemachine.withgoogle.com/models/53D14rvL/';
 
 function preload() {
   classifier = ml5.imageClassifier(modelURL + 'model.json');
@@ -15,9 +14,9 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
   video = createCapture(VIDEO);
   video.hide();
-  r = loadImage("Rock1.png");
-  p = loadImage("Paper1.png");
-  s = loadImage("Scissors1.png");
+  r = loadImage("Rock.png");
+  p = loadImage("Paper.png");
+  s = loadImage("Scissors.png");
   classifyVideo();
 }
 
