@@ -14,9 +14,9 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
   video = createCapture(VIDEO);
   video.hide();
-  r = loadImage("Rock.png");
-  p = loadImage("Paper.png");
-  s = loadImage("Scissors.png");
+  r = loadImage("data/Rock.png");
+  p = loadImage("data/Paper.png");
+  s = loadImage("data/Scissors.png");
   classifyVideo();
 }
 
